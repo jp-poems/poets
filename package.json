@@ -1,0 +1,33 @@
+{
+  "name": "spicy-ramen",
+  "version": "0.0.1",
+  "description": "A-Frame plus spice",
+  "main": "index.ts",
+  "module": "index.ts",
+  "repository": "git@github.com:johannprell/spicy-ramen.git",
+  "author": "Johann Prell",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "@types/aframe": "^0.8.4",
+    "@types/three": "^0.103.2",
+    "aframe": "^0.9.2",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "assets",
+        "staticOutDir": "assets"
+      }
+    ]
+  }
+}
