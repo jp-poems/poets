@@ -1,2 +1,2 @@
-# spicy-ramen
-Nutritious and spicy serving of A-Frame :hot_pepper: :ramen:
+# recite
+Will recite poetry at you for as long as you let it.
