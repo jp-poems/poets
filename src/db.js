@@ -37,5 +37,3 @@ async function getJson(url) {
   const json = await response.json()
   return json
 }
-
-

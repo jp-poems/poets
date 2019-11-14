@@ -1,6 +1,7 @@
 import * as AFRAME from 'aframe'
 import * as DB from './db'
 import randomInt from 'random-int'
+import 'aframe-text-geometry-component'
 
 init()
 
