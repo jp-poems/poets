@@ -5,10 +5,10 @@ import 'aframe-text-geometry-component'
 import { init as initText, printMain } from './text'
 
 window.onload = init()
+
 let currentLine = -1
 let frameIndex = 0
 let printInterval = 200
-
 let currentPoem
 
 async function init() {
